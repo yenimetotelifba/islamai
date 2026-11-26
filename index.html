@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İslam AI'ı İndir</title>
+  <!-- Bu ara sayfa arama motorlarında ayrı sayfa olarak görünmesin. -->
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="canonical" href="https://play.google.com/store/apps/details?id=com.yenimetotelifba.elifba">
+  <!-- JavaScript kapalıysa 1 sn sonra Google Play'e geçer. JavaScript açıksa
+       aşağıdaki betik daha önce yönlendirir (iOS ayrımı da orada yapılır). -->
+  <meta http-equiv="refresh" content="1;url=https://play.google.com/store/apps/details?id=com.yenimetotelifba.elifba&amp;referrer=utm_source%3Dindir_linki">
+  <script>
+    (function () {
+      // Google Play: referrer, yüklemelerin bu linkten geldiğini Play Console'da
+      // gösterir (kişisel veri içermez).
+      var PLAY_URL = 'https://play.google.com/store/apps/details?id=com.yenimetotelifba.elifba&referrer=utm_source%3Dindir_linki';
+
+      // App Store linki çıkınca tırnak içine yazmanız yeterli; iPhone/iPad'den
+      // girenler oraya, diğerleri Google Play'e gider. Boşken herkes Play'e gider.
+      // Örnek: var APP_STORE_URL = 'https://apps.apple.com/app/idXXXXXXXXXX';
+      var APP_STORE_URL = '';
+
+      var ua = navigator.userAgent || '';
+      var isApple = /iPhone|iPad|iPod/i.test(ua) ||
+        (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); // iPadOS
+      var target = (isApple && APP_STORE_URL) ? APP_STORE_URL : PLAY_URL;
+
+      // replace: "geri" tuşu bu ara sayfaya dönüp tekrar yönlendirmez.
+      window.location.replace(target);
+
+      document.addEventListener('DOMContentLoaded', function () {
+        var link = document.getElementById('indir');
+        if (link) link.href = target;
+      });
+    })();
+  </script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; background: #f7f3ea; color: #222; text-align: center; }
+    main { padding: 24px; }
+    h1 { font-size: 22px; margin: 0 0 8px; }
+    p { color: #555; margin: 0 0 20px; }
+    a.btn { display: inline-block; padding: 14px 22px; border-radius: 10px; background: #0b6e4f; color: #fff; text-decoration: none; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>İslam AI</h1>
+    <p>Google Play'e yönlendiriliyorsunuz…</p>
+    <a class="btn" id="indir" href="https://play.google.com/store/apps/details?id=com.yenimetotelifba.elifba&amp;referrer=utm_source%3Dindir_linki">İslam AI'ı Google Play'den İndir</a>
+  </main>
+</body>
+</html>
